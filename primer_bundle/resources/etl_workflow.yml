@@ -1,7 +1,7 @@
 resources:
   jobs:
     etl_pipeline:
-      name: "ETL BUNDLE - ${bundle.target}"
+      name: "PROBANDO - ${bundle.target}"
       tasks:
         - task_key: for
           for_each_task:
